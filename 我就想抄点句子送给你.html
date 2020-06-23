@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我就想抄点句子送给你 | 小太阳之家</title><meta name="description" content="我就想抄点句子送给你"><meta name="keywords" content="随笔"><meta name="author" content="路遥"><meta name="copyright" content="路遥"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//favicon/20140524205620_Lhsar.jpeg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="uJEDMZ2YXb"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="我就想抄点句子送给你"><meta name="twitter:description" content="我就想抄点句子送给你"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//重庆森林/cover/1077801079.jpg"><meta property="og:type" content="article"><meta property="og:title" content="我就想抄点句子送给你"><meta property="og:url" content="https://xiaotaiyangzhijia.top/%E6%88%91%E5%B0%B1%E6%83%B3%E6%8A%84%E7%82%B9%E5%8F%A5%E5%AD%90%E9%80%81%E7%BB%99%E4%BD%A0.html"><meta property="og:site_name" content="小太阳之家"><meta property="og:description" content="我就想抄点句子送给你"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//重庆森林/cover/1077801079.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://xiaotaiyangzhijia.top/%E6%88%91%E5%B0%B1%E6%83%B3%E6%8A%84%E7%82%B9%E5%8F%A5%E5%AD%90%E9%80%81%E7%BB%99%E4%BD%A0.html"><link rel="prev" title="小太阳之家" href="https://xiaotaiyangzhijia.top/%E5%B0%8F%E5%A4%AA%E9%98%B3%E4%B9%8B%E5%AE%B6.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xiaotaiyangzhijia.top/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: {"text":"本人,超帅","fontSize":"15px"},
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"top-center"},
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//avatar/20180522003852_GUchm.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> List</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/games/"><i class="fa-fw fa fa-gamepad"></i><span> 游戏</span></a></li><li><a class="site-page" href="/game1/"><i class="fa-fw fa fa-gamepad"></i><span> 游戏1</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-photo"></i><span> 相册</span></a></li></ul></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#——————"><span class="toc-number">1.</span> <span class="toc-text">——————</span></a></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div class="post-bg" id="nav" style="background-image: url(https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//重庆森林/top/cqsl1077689359.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">小太阳之家</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> 电影</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> List</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/games/"><i class="fa-fw fa fa-gamepad"></i><span> 游戏</span></a></li><li><a class="site-page" href="/game1/"><i class="fa-fw fa fa-gamepad"></i><span> 游戏1</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-photo"></i><span> 相册</span></a></li></ul></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">我就想抄点句子送给你</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-02-20<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-04-16</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%88%86%E4%BA%AB/">分享</a></span><div class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">3.2k</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>阅读时长: 9 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-comment-o" aria-hidden="true"></i><span>评论数:</span><a href="/%E6%88%91%E5%B0%B1%E6%83%B3%E6%8A%84%E7%82%B9%E5%8F%A5%E5%AD%90%E9%80%81%E7%BB%99%E4%BD%A0.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/%E6%88%91%E5%B0%B1%E6%83%B3%E6%8A%84%E7%82%B9%E5%8F%A5%E5%AD%90%E9%80%81%E7%BB%99%E4%BD%A0.html" itemprop="commentCount"></span></a></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><h1 id="——————"><a href="#——————" class="headerlink" title="——————"></a>——————</h1><p>1、我只要还有一丁点感情，就无法不期待获得对方的感情，不论是爱还是憎——三岛由纪夫《金阁寺》</p>
+<p>2、知得愈多，爱得愈多，爱得愈多，知得愈多，知与爱，永远成正比。——木心</p>
+<p>3、能够哭就好，哭是开始痊愈的象征。——《绝对是个梦》</p>
+<p>4、你经过那么多的人，聚聚散散、分分合合，也许以后还会有，但是你要记得，最后留下的永远都是我。——七堇年</p>
+<a id="more"></a>
+
+<p>5、我只希望、祈祷我的心境不要再粗糙下去、荒芜下去，这就是我最大的愿望。——周作人</p>
+<p>6、人那么壮大，权位、生死、爱恨、名利却能动摇它，权位、生死、爱恨、名利那么壮大，时间却消磨它。——李碧华</p>
+<p>7、藏好你受伤的手指，以免它到处碰伤，也不要抱怨它，恶人总是瞄准你易伤的弱处。——《智慧树》</p>
+<p>8、人生的困境，有时是自己编织出来的蜘蛛网，人生的绝境，往往也都是你内心创造出的假象，是你的恐慌和妄想才会逼你走入绝境。——汪采晴</p>
+<p>9、我们要敢于背上超出自己预料的包袱，努力之后，你会发现自己要比想象的优秀很多。——浅月《无惧人生》</p>
+<p>10、一个人要知道自己的位置，就像一个人知道自己的脸面一样，这是最为清醒的自觉，洗尽铅华总是比随意的涂脂抹粉来得美，所以能做的事把它做得最好，这才是做人的重要。——莫言</p>
+<p>11、我们都太喜欢等，固执的相信等待永远没有错，美好的日子就这样一日一日被消耗掉，生命中的任何事物都有保鲜期。——铁凝</p>
+<p>12、人无法渴求被了解，他人的理解有时与己无关，被人分享最多的内在，通常只是整体中较为肤浅的一个层面。——《且以永日》</p>
+<p>13、不要去做若当初做了另一种选择这样无意义的假设，你手里握着的，你所厌倦或习以为常的或许正是他人渴求的。——山本文绪</p>
+<p>14、即使最平凡的人，也得要他的那个存在的世界而战斗，从这个意义上说，在这些平凡的世界里，也没有一天是平静的。——路遥《平凡的世界》</p>
+<p>15、一个成熟的人往往发觉可以责怪的人越来越少，人人都有他的难处。——《我们不是天使》</p>
+<p>16、在路上一个人走的时候，路漫漫，仿佛要走出人世，从此遁去，然而兜兜转转还是要回来，人世风尘虽恶，毕竟无法绝尘离去，因为最烦忧的、最苦的、最爱的，都在这里了。——《走吧，张小砚》</p>
+<p>17、人生就像一本缺了很多页的书，说它是一本书实在有点勉强，但它毕竟是一本书。——芥川龙之介</p>
+<p>18、都希望在最好的年华遇见一个人，可往往是遇见一个人才迎来最好的年华。——摄影师布川</p>
+<p>19、写作的过程让我明白，人是为了活着本身活着的，而不是为了活着之外的任何事物活着。——余华</p>
+<p>20、我想我是个幸运的人，因为残忍、失去、流血以及无助到只能同归于尽的绝望，对我而言都只是电视新闻而已，我的世界一直以来都只是那么一点点大，可是这一点点在这个混乱的人世间，到底是安全的。——笛安《南音》</p>
+<p>21、失掉一根手指，是因为刀变慢了，刀为什么会变慢，因为心不单纯了。——电影《东邪西毒》</p>
+<p>22、人类的努力应该是没有边界的，我们千差万别，不管活着看上去有多糟糕，总有你能够做的事情，并且能够成功，有生命的地方总有希望。——电影《万物理论》</p>
+<p>23、无论自由相爱与否，人人死而平等，相信死亡不是你的终结，憧憬光明，就不惧怕黑暗。——电影《颐和园》</p>
+<p>24、世界很粗糙，岁月也不温柔，我们曾是两个淋透了雨的人，都没有伞，慌慌张张躲进了同一个屋檐，碰巧发现彼此有相同的目的地，于是有勇气并肩一起，散步、淋雨，那一路多开心，因为舍不得再见，所以宁愿人间的风雨别停、天别晴。——七堇年</p>
+<p>25、我遇见那么多人，可为什么偏偏是你，看起来最应该是过客的你，却在我心里占据了那么重要的位置。——电影《ONE DAY》</p>
+<p>26、寂寞也有寂寞的好处，它使人明白许多平常所不明白的事情。——沈从文</p>
+<p>27、有的时候我觉得什么都是假的，但是这不妨碍，我发自内心的相信并且爱着这个世界。——安东尼</p>
+<p>28、虽然说起来简单，但是很多人不知道“梦想”二字代表了什么，那些因为害怕直接放弃掉的，因为所谓的现实而一直放着不去做的事情，根本就不是你发自内心想要坚持的呀！——彭文淳</p>
+<p>29、能观悲喜，有觉悟的心，获得与失去都是很好，不能关照，执迷于外相，得到和失去都是不幸。——林清玄《在云上》</p>
+<p>30、我拖着她走路，她却如此对我说：“我的感情就像一杯酒，第一个人碰洒了还剩一半，我把杯子扶起来兑满留给第二个人，他又碰洒了，我还是扶起来兑满留给第三个人，感情是越来越淡，但是他们每个人获得的都是我完整的、全部的一杯酒。”</p>
+<p>幸还是不幸，她还是仍然相信感情和爱。——七堇年《澜本嫁衣》</p>
+<p>31、要生活的漂亮，需要付出极大的忍耐，一不抱怨、二不解释，绝对是个天才。——《变形记》</p>
+<p>32、每天叫醒你的不是闹钟，而是梦想，最美的所在不在路上而在心里，最好的爱情，不仅仅是拥有，还可以放手。——《再见，大马士革》</p>
+<p>33、可进可出、可即可离、可爱可怨、可聚而不会散，才是最天长地久的一种好朋友。——三毛</p>
+<p>34、陆上的人喜欢寻根问底，虚度了大好光阴，冬天忧虑夏天的姗姗来迟，夏天担心冬天的将至，所以他们不停的四处游走，追求一个遥不可及、四季如夏的地方。——电影《海上钢琴师》</p>
+<p>35、若我看倦了风景、走累了路，你是否愿意变成酒色的石头借我把余生靠一靠。——《胭脂盆地》</p>
+<p>36、我和谁都不争，和谁争我都不屑，我爱大自然，其次是艺术，我双手烤着生命之火取暖，火萎了，我也该走了。——杨绛</p>
+<p>37、我愿意和任何人说一万次“好”来换取一次对你说“不”的权利，不要离开我。——卢莉丽</p>
+<p>38、一个不成熟的人的标志是他愿意为了某个理由轰轰烈烈的死去，而一个成熟的人标志是他愿意为了某个谦恭的理由活着。——塞林格《麦田里的守望者》</p>
+<p>39、在这五光十色的世界，我要的只是公园里的一条长椅，有一只猫在上面晒太阳，我想我应该生在那儿，一封短信紧紧贴在我的胸膛，这就是我的未来。——索德格朗《礼物》</p>
+<p>40、我们花了两年时间学说话，却要花上六十年来学闭嘴，大多数的时候，我们说的越多，彼此的距离越远，矛盾越多。</p>
+<p>在沟通上，大多数人急于表达自己，一吐为快，却一点不懂对方，两年学说话，一生学闭嘴，懂与不懂，不多说，心乱心静，慢慢说，若没真话，就别说。——海明威</p>
+<p>41、将自己的感情埋藏深处也不是件好事，女人将自己所爱男人的情感埋藏起来，她也将失去拥有他的机会。——《傲慢与偏见》</p>
+<p>42、人生也许就是不断的放下，然而令人痛心的是，我都没有好好的和他们告别。——《少年派的奇幻漂流》</p>
+<p>43、我要做远方忠诚的儿子和物质的短暂情人，和所有以梦为马的诗人一样，我不得不和烈士和小丑走在同一道路上。——海子《以梦为马》</p>
+<p>44、一个人要做到对自己的美，聪明、善良完全不自知才显贵重，就像栀子花不知道自己多香，兰花不知道自己多幽静，天分、天性从来都不需要发言和解释。——安妮宝贝</p>
+<p>45、不要告诉别人你在想念，你要呆上耳机在一个下大雨的天气，在自己的温床上花上一个下午的时间，要把想要想念的人仔仔细细的想念一遍，随后你要做好吃的东西给自己吃，喝茶、换上干净的衣服，然后你要唱走调的歌，随后让他们好好的死在你的手心里。——河川敷</p>
+<p>46、无论是多么痛苦的事，只要是在你选择道路上发生的事，不管这个事情使你前进了还是后退了，就可以看做是逐渐幸福的一步。——宫泽太宰</p>
+<p>47、无聊是非常必要的，一个人在空白时间所做的事，决定了这个人和其他人的根本不同。——宁远</p>
+<p>48、当我们抱怨这个世界不像样子、难搞的时候，其实是我们变得不像原来的样子了。——严明《我爱这哭不出来的浪漫》</p>
+<p>49、“一个真正想死的人，不会再计较人们说什么，一个拿死说来说去的人，以我的经验来看，并不是真的想死，而是……”“而是什么”“而是还在……还在渴望爱”——史铁生《务虚笔记》</p>
+<p>50、有时候觉得生活是这样毛茸茸的一件事，是碎花布一样让人心软的事，是怎么也生气不起来、是必须讲理、是咱俩好好说话的事。是泡澡时感觉水慢慢蒸腾的一件事，是跑上土坡迎面一阵风的事，有时候觉得生活是一笔好字那样的事，每一画不见得有多出色，但组合起来很漂亮的一件事。写了什么我们就念它什么，生活是读书、写字一样有趣的事。——野象小姐《午时风》</p>
+<p>51、我离你很远，我没有什么可以和你说的，可是我就在这里，而且我知道你在哪里。——米兰昆德拉</p>
+<p>52、我们一路奋战，不是为了改变世界，而是为了不让世界改变我们。——电影《熔炉》</p>
+<p>53、没有人能承担受伤者的沉默。——毕飞宇《受伤的猫头鹰》</p>
+<p>54、出发总是美丽的，尤其是在这样一个阳光普照的清晨上路。——三毛《稻草人手记》</p>
+<p>55、我甘心这样平凡的生活，因为不平凡的生活代价太大，我没有支付的能力。——七堇年《平生欢》</p>
+<p>56、从前和你并肩而行是我多么期盼的事情，现在我觉得这样也挺好，你走你的路，我走我的路，累的时候，停下来互相打个电话。爱，其实是一件很沉重的事情，但它同时又像船上的锚，让人在这个飘摇的世间觉得安宁与稳妥，我终究没有去见你。——解学功《爱像一只寄居蟹》</p>
+<p>57、明知没意义。却没法不执著的事物，谁都有这样的存在。——东野圭吾《单恋》</p>
+<p>58、忘不了的人和事，才是真生命。——钱穆</p>
+<p>59、我们能触摸的东西，没有永远。——电影《卧虎藏龙》</p>
+<p>60、孤独感时常体现在一种矛盾上，就是你经常处于一种挣扎的状态，既希望别人关注、关心自己，又不知道怎么接触和回应别人，于是直接抗拒，可是骨子里又是那么的渴望被了解和关注，而且矛盾到嘴里说出来和心里想的完全相反。——《天才在左，疯子在右》</p>
+</div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9A%8F%E7%AC%94/">随笔    </a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//重庆森林/cover/1077801079.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/%E5%B0%8F%E5%A4%AA%E9%98%B3%E4%B9%8B%E5%AE%B6.html"><img class="prev_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//cover/20170126141401_FwiTt.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">小太阳之家</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/小太阳之家.html" title="小太阳之家"><img class="relatedPosts_cover lazyload"data-src="https://cdn.jsdelivr.net/gh/CCIT18081430131/HEXO_img//cover/20170126141401_FwiTt.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-02-20</div><div class="relatedPosts_title">小太阳之家</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify: true,
+  verify: true,
+  appId: 'S0oavLp7PnCvPDKmA2eOvV45-gzGzoHsz',
+  appKey: 'eiDpIOECvW5HK6IrDnqwO5L1',
+  placeholder: '',
+  avatar: 'monsterid',
+  meta: guest_info,
+  pageSize: '10',
+  lang: 'zh-cn',
+  recordIP: false,
+  serverURLs: ''
+});</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 路遥</div><div class="footer_custom_text">Hi,welcome to my <a href="https://xiaotaiyangzhijia.top/">blog</a>!</div><div class="icp"><a href="http://www.beian.miit.gov.cn/" target="_blank" rel="noopener"><img class="icp-icon" src="/img/icp.png"/><span>苏ICP备20015879号</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">簡</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="true" src="/js/third-party/piao.js"></script><script id="canvas_nest" color="62,62,62" opacity="0.7" zIndex="-1" count="199" mobile="true" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/third-party/click_heart.js"></script><script src="/js/third-party/ClickShowText.js"></script><script src="/js/search/local-search.js"></script></body></html>
